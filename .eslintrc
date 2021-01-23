@@ -1,0 +1,23 @@
+{
+  "extends": "eslint:recommended",
+  "parser": "@typescript-eslint/parser",
+  "rules": {
+    "max-len": [2, 120],
+    "no-var": 2,
+    "no-multiple-empty-lines": 2,
+    "quotes": [2, "single", "avoid-escape"],
+    "no-empty-pattern": 2,
+    "no-empty-character-class": 2,
+    "arrow-parens": 0,
+    "no-console": [1, { "allow": ["info", "warn", "error", "table"] }],
+    "comma-dangle": 2,
+    "curly": 2,
+    "no-duplicate-imports": 2,
+    "no-unused-vars": 1,
+    "no-undef": 0,
+    "no-empty": 1,
+    "no-eval": 2,
+    "no-unused-expressions": 1,
+    "semi": 2
+  }
+}
