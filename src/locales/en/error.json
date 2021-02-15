@@ -1,0 +1,4 @@
+{
+  "unknown": "Something went wrong. Please try again later",
+  "coordinatesSyntax": "Coordinates syntax is invalid. \nValid syntax is (latitiude,longitude): \n12.3456,12.3456 \n12.34567,12.34567 \n12.345678,12.345678"
+}

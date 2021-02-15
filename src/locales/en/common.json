@@ -1,0 +1,6 @@
+{
+  "hello": "Hello, {{name}}! \nSend me any location to get weather data.",
+  "langChangedsuccessfully": "Language changed successfully",
+  "sendLocation": "📍 Send location",
+  "moderation": "Your message on moderation"
+}

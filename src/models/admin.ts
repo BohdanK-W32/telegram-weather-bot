@@ -1,10 +1,5 @@
-import { Schema, model, Document } from 'mongoose';
-
-export interface IAdminSchema extends Document {
-  user_id: number;
-  is_owner: boolean;
-  created_at: Date;
-}
+import { Schema, model } from 'mongoose';
+import { AdminSchemaInterface } from 'types/models';
 
 const AdminSchema: Schema = new Schema({
   user_id: { type: Number, required: true },
@@ -12,4 +7,4 @@ const AdminSchema: Schema = new Schema({
   created_at: { type: Date, default: Date.now }
 });
 
-export default model<IAdminSchema>('Admin', AdminSchema, 'admin');
+export default model<AdminSchemaInterface>('Admin', AdminSchema, 'admin');

@@ -8,7 +8,7 @@
     "moduleResolution": "Node",
     "noEmit": true,
     "noImplicitAny": true,
-    "rootDir": "./src",
+    "rootDir": "./",
     "outDir": "./build",
     "resolveJsonModule": true,
     "skipLibCheck": true,

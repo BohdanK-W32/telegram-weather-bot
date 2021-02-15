@@ -1,10 +1,5 @@
-import { Schema, model, Document } from 'mongoose';
-
-export interface IUserSchema extends Document {
-  user_id: number;
-  lang: string;
-  created_at: Date;
-}
+import { Schema, model } from 'mongoose';
+import { UserSchemaInterface } from 'types/models';
 
 const UserSchema: Schema = new Schema({
   user_id: { type: Number, required: true },
@@ -12,4 +7,4 @@ const UserSchema: Schema = new Schema({
   created_at: { type: Date, default: Date.now }
 });
 
-module.exports = model<IUserSchema>('UserSchema', UserSchema, 'userData');
+export default model<UserSchemaInterface>('UserSchema', UserSchema, 'userData');

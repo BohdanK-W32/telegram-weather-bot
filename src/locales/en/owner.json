@@ -1,0 +1,5 @@
+{
+  "ownerGetDatabasefailed": "DB request error",
+  "sendSuccessfully": "Message send successfully",
+  "owner_moderation": "Message from {{name}} ({{id}}): "
+}

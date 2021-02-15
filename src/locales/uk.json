@@ -7,8 +7,8 @@
   "weather_message_tomorrow": "<b>Завтра</b>\n\n${summary} ${icon}\nЧас сходу сонця: ${sunriseTime}\nЧас заходу сонця: ${sunsetTime}\n\n<pre>Час    Темп. Вітер    Опади (ймовірність)</pre>\n${data}\n\n\n",
   "weather_message_date": "<b>${date}</b>\n\n${summary} ${icon}\n\n${data}\n\n\n",
   "owner_get_db_failed": "Помилка запиту бази даних",
-  "owner_send_success": "Повідомлення успішно відправлено",
+  "sendSuccessfully": "Повідомлення успішно відправлено",
   "owner_moderation": "Повідомлення від ${name} (${id}): ",
   "moderation": "Ваше повідомлення на модерації",
-  "coordinates_syntax_error": "Не правильний синтаксис. \nВалідні варіанти синтаксису (широта,довгота): \n12.3456,12.3456 \n12.34567,12.34567 \n12.345678,12.345678"
+  "coordinates_syntax_error": "Помилка синтаксису. \nВалідні варіанти синтаксису (широта,довгота): \n12.3456,12.3456 \n12.34567,12.34567 \n12.345678,12.345678"
 }

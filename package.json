@@ -1,8 +1,8 @@
 {
   "name": "w32-weather-telegram-bot",
   "scripts": {
-    "start": "nodemon",
-    "start:prod": "rimraf ./build && tsc"
+    "start": "NODE_ENV=development nodemon",
+    "start:prod": "NODE_ENV=production rimraf ./build && tsc"
   },
   "engines": {
     "node": "14"
@@ -14,16 +14,18 @@
     "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "i18next": "^19.8.5",
+    "i18next-fs-backend": "^1.0.8",
     "moment": "^2.26.0",
     "moment-timezone": "^0.5.31",
     "mongoose": "^5.11.13",
-    "telegraf": "^3.38.0",
-    "telegraf-i18n": "^6.6.0"
+    "telegraf": "^4.0.1"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",
     "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.11",
+    "@types/i18next-fs-backend": "^1.0.0",
     "@types/mongoose": "^5.10.3",
     "@types/node": "^14.14.22",
     "@types/nodemon": "^1.19.0",

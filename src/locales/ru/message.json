@@ -1,0 +1,8 @@
+{
+  "weather": {
+    "currently": "<b>Сейчас</b>\n\n{{summary}} {{icon}}\n\nТемпература: ${Number(temperature).toFixed(1)}°C (ощущается как ${Number(apparentTemperature).toFixed(1)}°C)\nСкорость ветра: ${Number(windSpeed).toFixed(1)} м/с\n\n\n",
+    "today": "<b>Сегодня</b>\n\n{{summary}} {{icon}}\nВремя восхода солнца: {{sunriseTime}}\nВремя заката солнца: {{sunsetTime}}\n\n<pre>Время  Темп. Ветер    Осадки (вероятность)</pre>\n{{data}}\n\n\n",
+    "tomorrow": "<b>Завтра</b>\n\n{{summary}} {{icon}}\nВремя восхода солнца: {{sunriseTime}}\nВремя заката солнца: {{sunsetTime}}\n\n<pre>Время  Темп. Ветер    Осадки (вероятность)</pre>\n{{data}}\n\n\n",
+    "date": "<b>{{date}}</b>\n\n{{summary}} {{icon}}\n\n${data}\n\n\n"
+  }
+}

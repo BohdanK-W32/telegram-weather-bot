@@ -1,0 +1,8 @@
+{
+  "weather": {
+    "currently": "<b>Currently</b>\n\n{{summary}} {{icon}}\n\nTemperature: ${Number(temperature).toFixed(1)}°C (feels like ${Number(apparentTemperature).toFixed(1)}°C)\nWind speed: ${Number(windSpeed).toFixed(1)} m/s\n\n\n",
+    "today": "<b>Today</b>\n\n{{summary}} {{icon}}\nSunrise time: {{sunriseTime}}\nSunset time: {{sunsetTime}}\n\n<pre>Time   Temp. Wind     Precip (probability)</pre>\n{{data}}\n\n\n",
+    "tomorrow": "<b>Tomorrow</b>\n\n{{summary}} {{icon}}\nSunrise time: {{sunriseTime}}\nSunset time: {{sunsetTime}}\n\n<pre>Time   Temp. Wind     Precip (probability)</pre>\n{{data}}\n\n\n",
+    "date": "<b>{{date}}</b>\n\n{{summary}} {{icon}}\n\n{{data}}\n\n\n"
+  }
+}

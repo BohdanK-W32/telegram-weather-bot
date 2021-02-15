@@ -1,4 +1,7 @@
-export const filterTomorrowHourly = ({ data, timezone }) => {
+import moment from 'moment';
+import { GeneralWeaterDataInterface } from 'types';
+
+export const filterTomorrowHourly = ({ data, timezone }: GeneralWeaterDataInterface) => {
   const allHours = data.filter(({ time }) =>
     moment.unix(time).isBetween(moment().endOf('day'), moment().add(1, 'd').endOf('day'))
   );

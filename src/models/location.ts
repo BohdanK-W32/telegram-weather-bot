@@ -1,15 +1,5 @@
-import { Schema, model, Document } from 'mongoose';
-
-export interface ILoactionSchema extends Document {
-  user_id: number;
-  location: TLocation;
-  created_at: Date;
-}
-
-export type TLocation = {
-  lat: string;
-  lng: string;
-};
+import { Schema, model } from 'mongoose';
+import { LocationSchemaInterface } from 'types/models';
 
 const LocationSchema: Schema = new Schema({
   user_id: { type: Number, required: true },
@@ -20,4 +10,4 @@ const LocationSchema: Schema = new Schema({
   created_at: { type: Date, default: Date.now }
 });
 
-module.exports = model<ILoactionSchema>('LocationSchema', LocationSchema, 'locationHistory');
+export default model<LocationSchemaInterface>('LocationSchema', LocationSchema, 'locationHistory');

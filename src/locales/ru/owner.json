@@ -1,0 +1,5 @@
+{
+  "ownerGetDatabasefailed": "Ошибка запроса базы данных",
+  "sendSuccessfully": "Сообщение успешно отправлено",
+  "owner_moderation": "Сообщение от {{name}} ({{id}}): "
+}

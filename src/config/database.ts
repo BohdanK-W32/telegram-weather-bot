@@ -10,7 +10,7 @@ const connectDatabase = () => {
     useCreateIndex: true
   });
 
-  database.on('error', console.error.bind(console, 'Database connection error:'));
+  database.on('error', console.error.bind(console, 'Database connection error: '));
   database.once('open', () => console.info('Database connected successfully'));
 };
 

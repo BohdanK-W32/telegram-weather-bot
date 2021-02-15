@@ -11,7 +11,7 @@
     "arrow-parens": 0,
     "no-console": [1, { "allow": ["info", "warn", "error", "table"] }],
     "comma-dangle": 2,
-    "curly": 2,
+    "curly": 0,
     "no-duplicate-imports": 2,
     "no-unused-vars": 1,
     "no-undef": 0,
